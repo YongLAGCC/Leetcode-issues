@@ -4,6 +4,8 @@
 # Time complexity: Delete -> O(log n); Insert: O(1);
 # Space complexity : O(n)
 
+#offer: insert（）in front of the heap.
+
 #错误点： 基础知识不牢固 
 
 import java.util.ArrayList;

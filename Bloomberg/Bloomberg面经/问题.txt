@@ -1,0 +1,10 @@
+问题： 有些mid 题， 用最优的速度 难度比较大，但是一般的速度就很简单。 这样的情况，我需要用最优速度吗？  例如215， Kth Largest， 用heap O（n * log k）；  
+
+ArrayList<>() 为什么有的写没有space complexity， 有的有？ what about array
+
+
+Google account Sharing?
+
+Pair programming 是 Justin 发的
+
+

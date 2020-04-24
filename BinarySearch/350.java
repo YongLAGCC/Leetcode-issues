@@ -4,7 +4,7 @@
 # space complexity: O(n) by using list in length of k.
 
 # 错误点： binarySearch should return index of the array that matchs with num2. could not return true and false. 
-
+# 不清楚为什么 why remove index ??? @ line 27
 
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
@@ -22,7 +22,7 @@ class Solution {
          List<Integer> ans = new ArrayList<>(); 
         
         for(int num: nums2){
-            int indx = binarySearch(nums1List, num);
+            int indx = binarySearch(nums1List, num); // 
             if (indx != -1){
                 nums1List.remove(indx);
                 ans.add(num);
